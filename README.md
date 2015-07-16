@@ -34,6 +34,8 @@ dumpbin.exe /EXPORTS user32.dll | more
 
 # Some RunDll32 commands for Windows Vista and Windows 7
 
+Documentation for RunDll https://support.microsoft.com/en-us/kb/164787 
+
 Add/Remove Programs
 ```
 RunDll32.exe shell32.dll,Control_RunDLL appwiz.cpl,,0
@@ -131,4 +133,16 @@ RunDll32.exe SHELL32.DLL,ShellAboutW
 Windows Firewall
 ```
 RunDll32.exe shell32.dll,Control_RunDLL firewall.cpl
+```
+
+
+
+# Snippets
+
+```
+__declspec(dllexport)
+```
+
+```
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\KnownDLLs
 ```
