@@ -14,8 +14,8 @@ API
 
 # Tools
 - Dependency Walker http://www.dependencywalker.com/
-- dumpbin.exe
-- rundll32.exe   (RUNDLL32.EXE <dllname>,<entrypoint> <optional arguments>
+- dumpbin.exe https://support.microsoft.com/en-us/kb/177429
+- rundll32.exe   (RUNDLL32.EXE <dllname>,<entrypoint> <optional arguments>) https://support.microsoft.com/en-us/kb/164787
 
 # Example RUNDLL32 commands with user32.dll
 ```
